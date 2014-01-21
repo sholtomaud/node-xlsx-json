@@ -1,0 +1,15 @@
+{
+  "name": "xlsx-to-json",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chilijung <chilijung@gmail.com> (http://lijung.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "xlsx": "~0.3.6",
+    "csv": "~0.3.6"
+  }
+}
