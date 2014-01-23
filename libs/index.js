@@ -58,12 +58,10 @@ CV.prototype.cvjson = function(csv, output, callback) {
         })
         record.push(obj);
       }
-      console.log('#'+index+' '+JSON.stringify(row));
     })
     .on('end', function(count){
       // when writing to a file, use the 'close' event
       // the 'end' event may fire before the file has been written
-      console.log('Number of lines: '+count);
       if(output !== null) {
       	var stream = fs.createWriteStream(output, { flags : 'w' });
       	stream.write(JSON.stringify(record));
