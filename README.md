@@ -10,7 +10,7 @@ Converting xlsx file to json files using nodejs
 
 ## Usage
 
-```
+```javascript
   xlsxj = require("xlsx-to-json");
   xlsxj({
     input: "sample.xlsx", 
