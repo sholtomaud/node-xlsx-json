@@ -72,6 +72,6 @@ CV.prototype.cvjson = function(csv, output, callback) {
       	
     })
     .on('error', function(error){
-      console.log(error.message);
+      console.error(error.message);
     });
 }
