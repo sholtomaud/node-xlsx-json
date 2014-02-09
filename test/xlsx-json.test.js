@@ -1,5 +1,6 @@
 var should = require('should');
 var xlsx2json = require('../');
+var fs = require('fs')
 
 describe('xlsx to json', function() {
 
@@ -23,5 +24,11 @@ describe('xlsx to json', function() {
 		})
 
 	})
+
+	it('should exist test.json', function() {
+		var exist = fs.existsSync('./sample/test.json')
+		exist.should.be.true;
+	})
+		
 
 })
