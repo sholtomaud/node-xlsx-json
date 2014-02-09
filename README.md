@@ -1,5 +1,7 @@
 # node-xlsx-json
 
+[![Build Status](https://travis-ci.org/DataGarage/node-xlsx-json.png?branch=master)](https://travis-ci.org/DataGarage/node-xlsx-json)
+
 Converting xlsx file to json files using nodejs
 
 ## Install
