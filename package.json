@@ -1,15 +1,27 @@
 {
   "name": "xlsx-to-json",
-  "version": "0.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "Convert xlsx to json",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DataGarage/node-xlsx-json"
   },
   "author": "chilijung <chilijung@gmail.com> (http://lijung.com/)",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DataGarage/node-xml-json/issues"
+  },
+  "homepage": "https://github.com/DataGarage/node-xml-json",
   "dependencies": {
     "xlsx": "~0.3.6",
     "csv": "~0.3.6"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "should": "~3.1.2"
   }
 }
